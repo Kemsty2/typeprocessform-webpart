@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "form-typeprocess-client-side-solution",
+    "id": "d69601f0-ac26-48d1-b830-053f7adb1487",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/form-typeprocess.sppkg"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "react",
+    "pnpFramework": "reactjs.plus",
+    "pnp-libraries": [
+      "@pnp/pnpjs",
+      "@pnp/spfx-property-controls",
+      "ouifr@6fluent"
+    ],
+    "pnp-ci": "no-devops",
+    "pnp-vetting": [
+      "webpack-analyzer"
+    ],
+    "spfxenv": "onprem19",
+    "pnp-testing": [
+      "jest"
+    ]
+  },
+  "@microsoft/generator-sharepoint": {
+    "environment": "onprem19",
+    "framework": "react",
+    "isCreatingSolution": true,
+    "version": "1.11.0",
+    "libraryName": "form-typeprocess",
+    "libraryId": "d69601f0-ac26-48d1-b830-053f7adb1487",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
